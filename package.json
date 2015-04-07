@@ -1,7 +1,8 @@
 {
   "name": "ember-cli-tbs",
-  "version": "0.1",
+  "version": "0.0.2",
   "description": "Twitter Bootstrap for Ember CLI.",
+  "main": "index.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +16,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "yuanxin.qiu",
+  "author": "justqyx",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
@@ -43,5 +44,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com"
   }
 }
