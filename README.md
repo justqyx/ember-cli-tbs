@@ -1,12 +1,10 @@
-# Ember-cli-tbs
+# ember-cli-tbs
 
-This README outlines the details of collaborating on this Ember addon.
+Ember CLI Addon for Twitter Bootstrap.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `ember install:addon ember-cli-tbs`
 
 ## Running
 
