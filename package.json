@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-tbs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Twitter Bootstrap for Ember CLI.",
   "main": "index.js",
   "directories": {

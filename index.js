@@ -7,8 +7,8 @@ module.exports = {
     this._super.included(app);
 
     var emberCLIVersion = app.project.emberCLIVersion();
-    if (emberCLIVersion < '0.2.2') {
-      throw new Error('ember-cli-tbs requires ember-cli version 0.2.2 or greater.\n');
+    if (emberCLIVersion < '0.2.3') {
+      throw new Error('ember-cli-tbs requires ember-cli version 0.2.3 or greater.\n');
     }
 
     var options       = app.options['ember-cli-tbs'] || {};
